@@ -1,0 +1,19 @@
+package com.day5;
+
+import java.util.Scanner;
+
+public class TesterPoint2D {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int choice,index = 0;
+		
+		Point2DMenu.displayMenu();
+		do {
+			System.out.println("Enter your choice : ")
+			
+		}while(choice != 5);
+
+	}
+
+}

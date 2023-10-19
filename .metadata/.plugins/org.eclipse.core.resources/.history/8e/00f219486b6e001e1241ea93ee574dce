@@ -1,0 +1,37 @@
+package com.day5;
+
+import java.util.Scanner;
+
+public class TesterPoint2D {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int choice,index = 0;
+		
+		Point2DMenu.displayMenu();
+		do {
+			System.out.println("Enter your choice : ");
+			System.out.println("Enter 6 to view Menu");
+			choice = input.nextInt();
+			
+			switch(choice) {
+				case 1:
+					break;
+				case 2:
+					break;	
+				case 3:
+					break;
+				case 4:
+					break;
+				case 5:
+					break;
+				case 6:
+					Point2DMenu.displayMenu();
+					break;	
+			}
+			
+		}while(choice != 5);
+
+	}
+
+}
